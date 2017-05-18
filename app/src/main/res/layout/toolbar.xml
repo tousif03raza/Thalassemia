@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/toolbar" android:layout_height="wrap_content" android:layout_width="match_parent" android:fitsSystemWindows="true" android:maxHeight="?android:attr/actionBarSize" android:background="#000000">
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_alignParentRight="true" android:layout_marginRight="5dp" android:id="@+id/linearLayout1" android:layout_centerVertical="true">
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/cart" android:id="@+id/imgLocation" android:layout_gravity="center_vertical" />
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/cart" android:id="@+id/imgFilter" android:layout_marginLeft="5dp" android:layout_gravity="center_vertical" />
+    <FrameLayout android:id="@+id/cartLayout" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="5dp">
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/cart" android:id="@+id/imgCart" android:layout_margin="10dp" />
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="0" android:textColor="@android:color/white"  android:padding="0.5dp" />
+</FrameLayout>
+</LinearLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtTitle" android:text="--Title--" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@android:color/white" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_toLeftOf="@id/linearLayout1" android:layout_centerVertical="true" android:layout_marginRight="5dp" />
+</RelativeLayout>
+</android.support.v7.widget.Toolbar>
